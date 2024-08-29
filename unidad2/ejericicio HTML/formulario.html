@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Informacion Personal</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" placeholder="Ingrese su fecha de nacimiento" required>
+
+            <label for="genero">Genero:</label>
+            <input type="radio" id="genero" name="genero" value="Masculino" required>
+            <label for="genero">Masculino</label>
+            <input type="radio" id="genero2" name="genero" value="Femenino">
+            <label for="genero">Femenino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informacion de Contacto</legend>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
+
+            <label for="telefono">Telefono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su telefono" required>
+
+            <label for="direccion">Direccion:</label>
+            <input type="text" id="direccion" name="direccion" placeholder="Ingrese su direccion" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informacion de Cuenta</legend>
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" placeholder="Ingrese su usuario" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Ingrese su password" required>
+
+            <label for="confirmarPassword">Confirmar Password:</label>
+            <input type="password" id="confirmarPassword" name="confirmarPassword" placeholder="Confirme su password" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>preferencias</legend>
+            <label for="colorFavorito">Color Favorito:</label>
+            <input type="color" id="colorFavorito" name="colorFavorito" placeholder="Ingrese su color favorito" required>
+
+            <label for="terminos">Terminos y Condiciones:</label>
+            <input type="checkbox" id="terminos" name="terminos" value="terminos">
+            <label for="terminos">Acepto los terminos y condiciones</label>
+        </fieldset>
+    </form>
+</body>
+</html>
