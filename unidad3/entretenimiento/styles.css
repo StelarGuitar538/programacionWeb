@@ -1,0 +1,36 @@
+* {
+    background-color: #fff;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    font-size: 2em;
+    table-layout: fixed;
+}
+
+.table caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.table td {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.table td:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.table td:active {
+    background-color: rgb(150, 150, 150);
+}
