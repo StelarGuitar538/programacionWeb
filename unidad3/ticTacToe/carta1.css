@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imgCard {
+    height: 200px;
+    width: 250px;
+}
+
+.cardBody {
+    padding: 0 20px;
+    background-color: whitesmoke;
+}
+
+.titulo:hover {
+    color: #9538 ;
+    
+}

@@ -1,0 +1,75 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-style: outset;
+}
+
+.header {
+    display: flex;
+    flex-direction:row ;
+}
+
+.header p {
+    padding: 0 20px;
+}
+
+.carrito {
+    height: 20px;
+    margin: auto 20px auto auto;
+}
+
+.carrito:hover {
+    cursor: pointer;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.carrito:active {
+    background-color: rgb(98, 160, 214);
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:active {
+    background-color: rgb(98, 160, 214);
+    transition: background-color 0.2s ease;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carta {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-style: outset;
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cuerpoCarta {
+    background-color: #e4e4e4 ;
+    margin: 15px auto auto auto;
+    border-radius: 5px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}

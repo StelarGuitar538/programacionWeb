@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(218, 221, 221);
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+}

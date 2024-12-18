@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <form action="#" id="form">
+        <input type="number" class="input" placeholder="numero 1">
+        <span class="span"></span>
+
+        <input type="number" class="input" placeholder="numero 2">
+        <span class="span"></span>
+
+        <label for="operacion">seleccione operacion</label>
+        <select id="operacion">
+            <option value="suma">suma</option>
+            <option value="resta">resta</option>
+            <option value="multiplicacion">multiplicacion</option>
+            <option value="division">division</option>
+        </select>
+        
+        <button id="btn">calcular</button>
+        <span id="span"></span>
+
+        <button id="reiniciar">reiniciar</button>
+    </form>
+    <ul id="historial"></ul>
+</body>
+<script src="./script1.js"></script>
+</html>

@@ -1,0 +1,52 @@
+#input {
+    background-color: antiquewhite;
+    transition: background-color 0.4s ease;
+    border-radius: 3px;
+    border-style: outset;
+    margin-left: 5px;
+}
+
+#input:focus {
+    background-color: azure;
+}
+
+#btn {
+    border-radius: 3px;
+    border-style: outset;
+    margin: 5px 8px;
+}
+
+#btn:active {
+    background-color: #e79494;
+    color: rebeccapurple;
+}
+
+#eliminar {
+   margin: 10px;
+   border-radius: 3px;
+   border-style: outset;
+}
+
+#eliminar:active {
+    background-color: #e79494;
+    color: rebeccapurple;
+}
+
+#ter {
+    margin: 10px;
+    border-radius: 3px;
+    border-style: outset;
+}
+
+#ter:active {
+    background-color: #e79494;
+    color: rebeccapurple;
+}
+
+#editar {
+    background-color: antiquewhite;
+    border-radius: 3px;
+    border-style: outset;
+    margin-left: 5px;
+}
+

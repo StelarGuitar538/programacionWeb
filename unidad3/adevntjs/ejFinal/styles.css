@@ -1,0 +1,27 @@
+body {
+    background-color: #e4e4e4;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn {
+    background-color: #3fb97c;
+}
+
+#btn:hover {
+    background-color: beige;
+}
+
+#label {
+    font-size: larger;
+}
